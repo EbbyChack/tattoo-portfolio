@@ -1,0 +1,66 @@
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.5em;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar .logo-sec h1 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+.navbar .menu-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.navbar-menu-btn {
+  height: max-content;
+  font-family: inherit;
+  background: none;
+  color: inherit;
+ 
+  border: none;
+  border-radius: 5em;
+  padding: 0.8em 1em;
+  font-size: 1.18em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navbar-menu-btn:hover {
+  background: #ffffff29;
+  color: rgb(255, 255, 255);
+  backdrop-filter: blur(40px);
+}
+
+.book-sec {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1em;
+}
+.navbar-book-btn {
+  font-family: inherit;
+  background: #ffffff;
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 5em;
+  padding: 0.8em 1em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navbar-book-btn:hover {
+  transform: scale(1.1);
+}
+
+.navbar-book-btn:active {
+  transform: scale(0.9);
+}
